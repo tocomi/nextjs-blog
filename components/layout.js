@@ -28,7 +28,7 @@ function Layout({ children, home }) {
         {home ? (
           <>
             <img
-              src="/vercel.svg"
+              src="/fatman.png"
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
             />
@@ -39,7 +39,7 @@ function Layout({ children, home }) {
             <Link href="/">
               <a>
                 <img
-                  src="/vercel.svg"
+                  src="/fatman.png"
                   className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                   alt={name}
                 />
