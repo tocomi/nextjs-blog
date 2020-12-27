@@ -1,0 +1,22 @@
+.button {
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  height: 40px;
+  outline: none;
+  width: 120px;
+}
+
+.normal {
+  background-color: #45b0e5;
+  color: white;
+}
+
+.warn {
+  background-color: #ff884d;
+}
+
+.danger {
+  background-color: #ee4d4d;
+  color: white;
+}

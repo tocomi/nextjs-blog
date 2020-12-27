@@ -1,9 +1,12 @@
 import Layout from '../../components/layout';
+import { Button } from '../../components/Button/Container';
 
 const Sandbox = (): JSX.Element => {
   return (
     <Layout>
-      <span>test</span>
+      <Button caption="normal" color="normal" />
+      <Button caption="warn" color="warn" />
+      <Button caption="danger" color="danger" />
     </Layout>
   );
 };
