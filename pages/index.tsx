@@ -10,7 +10,7 @@ export default function Home({
   allPostsData,
 }: {
   allPostsData: { date: string; title: string; id: string }[];
-}) {
+}): JSX.Element {
   return (
     <Layout home>
       <Head>
@@ -39,6 +39,9 @@ export default function Home({
           ))}
         </ul>
       </section>
+      <Link href={'/sandbox'}>
+        <a>sandbox</a>
+      </Link>
     </Layout>
   );
 }
