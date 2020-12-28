@@ -1,7 +1,7 @@
 import React from 'react';
 import { Presenter } from './Presenter';
 
-interface P {
+export interface P {
   caption: string;
   color: 'normal' | 'warn' | 'danger';
 }

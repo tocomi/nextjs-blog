@@ -5,18 +5,18 @@
   height: 40px;
   outline: none;
   width: 120px;
-}
 
-.normal {
-  background-color: #45b0e5;
-  color: white;
-}
-
-.warn {
-  background-color: #ff884d;
-}
-
-.danger {
-  background-color: #ee4d4d;
-  color: white;
+  &--normal {
+    background-color: #45b0e5;
+    color: white;
+  }
+  
+  &--warn {
+    background-color: #ff884d;
+  }
+  
+  &--danger {
+    background-color: #ee4d4d;
+    color: white;
+  }
 }
