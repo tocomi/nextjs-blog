@@ -8,5 +8,7 @@ interface P {
 
 export const Presenter: React.FC<P> = (props: P) => {
   const { caption, color } = props;
-  return <button className={`${styles.button} ${styles[color]}`}>{caption}</button>;
+  return (
+    <button className={[styles.button, styles[`button--${color}`]].join(' ')}>{caption}</button>
+  );
 };
